@@ -1,0 +1,25 @@
+ h1{
+    text-align: center;
+ }
+ .bal{
+    text-align: center;
+    
+ }
+ #name{
+    border-radius: 20px;
+ }
+ #amount{
+     border: radius 20px;
+ }
+ #submit{
+   background-color: blueviolet;
+   color: white;
+    border-radius: 20px;
+ }
+ #submit:hover,amount{
+    color: darkviolet;
+ }
+ #clear{
+    background-color: orangered;
+    color: white;
+ }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="paymentform.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <div class="bal" >
+        <h3>Your Balance</h3>
+        <table>
+            <tr>
+                <th>Income</th>
+                <th>Expense</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="his">
+        <h3>History</h3>
+        
+    </div>
+    <div class="trans">
+        <p>Add New Transaction</p> <br>
+        <form action="server"></form>
+        <label for="Name">Text</label><br>
+        <input type="text"  placeholder="Enter Name" id="Name"><br>
+        <label for="amount">Amount <br>(negative-expense,positive-Income)</label>
+        <input type="number" placeholder="Enter amount" id="amount"> <br>
+        <button id="submit">Submit</button>
+        <label for="submit"></label> <br>
+        <button id="clear">Clear All</button>
+        <label for="clear"></label>
+
+    </div>
+</body>
+</html>
